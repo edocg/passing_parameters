@@ -1,0 +1,11 @@
+[package]
+name = "views"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4" 
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+serde_json = {version = "1.0", default-features = false, features = ["alloc"]}
+futures = "0.3.31"
+serde = "1.0.210"
